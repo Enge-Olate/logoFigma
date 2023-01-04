@@ -1,0 +1,46 @@
+body{
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
+
+}
+.logoFigma{
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.elemento{
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+.esquerdo{
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.direito{
+  border-top-right-radius:50px;
+    border-bottom-right-radius:50px;
+}
+.circulo{
+  border-radius: 50px;
+}
+.clip {
+	border-bottom-right-radius:50px;
+}
+.laranja{
+  background : #fb7266;
+}
+.roxo{
+  background: #a061fa;
+}
+.azul{
+  background: #2ebdfa;
+}
+.verde{
+  background: #00ce84;
+}
